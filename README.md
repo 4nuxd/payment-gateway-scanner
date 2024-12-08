@@ -12,7 +12,7 @@ A Python-based tool to scan websites for **payment gateways**, **CAPTCHA**, **Cl
 - 📊 **GraphQL Support**: Scans for GraphQL integration.  
 - 🛍️ **E-Commerce Platforms**: Detects WooCommerce, Shopify, Magento, etc.  
 - 💳 **Card Support**: Finds supported card types (Visa, MasterCard, etc.).  
-- 📑 **Multi-Page Scanning**: Extends scans to related pages (e.g., `/checkout`, `/cart`).  
+- 📑 **Multi-Page Scanning**: Extends scans to related pages .
 - 🔎 **Progress Tracking**: Visualize progress with a dynamic progress bar.  
 
 ---
@@ -64,9 +64,16 @@ pip install -r requirements.txt
 ## 📋 Example Output  
 
 ```plaintext
-████╗  ██║██╔═══██╗██╔═══██╗██╔══██╗  Version: v 1.0.0
+███╗   ██╗ ██████╗  ██████╗ ██████╗   A Payment Gateway  Scanner
+████╗  ██║██╔═══██╗██╔═══██╗██╔══██╗  Version: v 2.0.0
 ██╔██╗ ██║██║   ██║██║   ██║██████╔╝  Author: Noob Pirate Aka Blionrie
-Scanning: ██████████████████████████████████████████ 100%
+██║╚██╗██║██║   ██║██║   ██║██╔══██╗  Note: Every Action Has a Consequence
+██║ ╚████║╚██████╔╝╚██████╔╝██████╔╝  Join: https://t.me/piratexnetwork
+╚═╝  ╚═══╝ ╚═════╝  ╚═════╝ ╚═════╝   Bored..? : http://bit.ly/3MTMHyU
+___________________________________________________________________________
+
+Enter the website URL: https://example.com  
+Scanning: 100%|█████████████████████████████████████████████████████████████████
 
 Scan completed!  
 URL: https://example.com  
