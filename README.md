@@ -3,6 +3,30 @@
 A Python-based tool to scan websites for **payment gateways**, **CAPTCHA**, **Cloudflare protection**, **GraphQL**, **e-commerce platforms**, and **card support**. Ideal for researchers and enthusiasts exploring payment system integrations! 🌐  
 
 ---
+## 📋 Example Output  
+
+```plaintext
+███╗   ██╗ ██████╗  ██████╗ ██████╗   A Payment Gateway  Scanner
+████╗  ██║██╔═══██╗██╔═══██╗██╔══██╗  Version: v 2.0.0
+██╔██╗ ██║██║   ██║██║   ██║██████╔╝  Author: Noob Pirate Aka Blionrie
+██║╚██╗██║██║   ██║██║   ██║██╔══██╗  Note: Every Action Has a Consequence
+██║ ╚████║╚██████╔╝╚██████╔╝██████╔╝  Join: https://t.me/piratexnetwork
+╚═╝  ╚═══╝ ╚═════╝  ╚═════╝ ╚═════╝   Bored..? : http://bit.ly/3MTMHyU
+___________________________________________________________________________
+
+Enter the website URL: https://example.com  
+Scanning: 100%|█████████████████████████████████████████████████████████████████
+
+Scan completed!  
+URL: https://example.com  
+Payment Gateways: Stripe, PayPal  
+Captcha: True  
+Cloudflare: False  
+GraphQL: True  
+Platforms: WooCommerce  
+Card Support: Visa, MasterCard  
+```  
+---
 
 ## ⚙️ Features  
 
@@ -58,32 +82,6 @@ pip install -r requirements.txt
    ```  
 
 5. Wait for the scan to complete, and review the consolidated results!  
-
----
-
-## 📋 Example Output  
-
-```plaintext
-███╗   ██╗ ██████╗  ██████╗ ██████╗   A Payment Gateway  Scanner
-████╗  ██║██╔═══██╗██╔═══██╗██╔══██╗  Version: v 2.0.0
-██╔██╗ ██║██║   ██║██║   ██║██████╔╝  Author: Noob Pirate Aka Blionrie
-██║╚██╗██║██║   ██║██║   ██║██╔══██╗  Note: Every Action Has a Consequence
-██║ ╚████║╚██████╔╝╚██████╔╝██████╔╝  Join: https://t.me/piratexnetwork
-╚═╝  ╚═══╝ ╚═════╝  ╚═════╝ ╚═════╝   Bored..? : http://bit.ly/3MTMHyU
-___________________________________________________________________________
-
-Enter the website URL: https://example.com  
-Scanning: 100%|█████████████████████████████████████████████████████████████████
-
-Scan completed!  
-URL: https://example.com  
-Payment Gateways: Stripe, PayPal  
-Captcha: True  
-Cloudflare: False  
-GraphQL: True  
-Platforms: WooCommerce  
-Card Support: Visa, MasterCard  
-```  
 
 ---
 
